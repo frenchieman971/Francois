@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Francois DJ — Catalogues</title>
+<title>DJ FRANCOIS DE ST FRANCOIS — Catalogues</title>
 <style>
   :root {
     --ink: #1b0a2e;
@@ -16,9 +16,12 @@
   * { box-sizing: border-box; }
   body { margin: 0; background: #ffffff; color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.4; }
   .wrap { max-width: 1140px; margin: 0 auto; padding: 0 16px; }
-  .topbar { display: flex; align-items: center; min-height: 72px; }
-  .brand { font-family: Impact, "Arial Black", sans-serif; font-size: 1.6rem; letter-spacing: .5px; color: var(--magenta); text-decoration: none; }
-  .band { height: 74px; background: linear-gradient(90deg, var(--magenta), var(--violet)); }
+  .topbar { display: flex; align-items: center; min-height: 96px; padding-top: 12px; padding-bottom: 12px; }
+  .brand { display: flex; align-items: center; gap: 14px; text-decoration: none; font-family: Impact, "Arial Black", sans-serif; font-size: 1.5rem; letter-spacing: .5px; color: var(--magenta); }
+  .logo { width: 72px; height: 72px; flex: none; }
+  .hero { display: flex; justify-content: center; align-items: center; min-height: 92px; padding: 18px 16px; background: linear-gradient(90deg, var(--magenta), var(--violet)); }
+  .tel { display: inline-flex; align-items: center; gap: 12px; padding: 10px 22px; border-radius: 999px; background: #ffffff; color: var(--ink); font-family: Impact, "Arial Black", sans-serif; font-size: 1.5rem; letter-spacing: 1px; text-decoration: none; box-shadow: 0 4px 0 var(--ink); }
+  .tel:focus-visible { outline: 3px solid var(--cyan); outline-offset: 4px; }
   .crumbs { padding-top: 14px; font-size: .9rem; color: var(--muted); }
   .crumbs a { color: var(--violet); text-decoration: none; }
   h1 { font-size: 2rem; margin: 22px 0 6px; }
@@ -43,14 +46,19 @@
     .dl svg { width: 18px; height: 18px; }
     .item-title { font-size: .95rem; }
     .item-desc { font-size: .8rem; }
+    .logo { width: 60px; height: 60px; }
+    .tel { font-size: 1.2rem; padding: 8px 16px; }
+    .brand { font-size: 1.1rem; gap: 10px; }
   }
 </style>
 </head>
 <body>
 <header class="wrap topbar">
-  <span class="brand">FRANCOIS DJ</span>
+  <a class="brand" href="./"><img class="logo" src="logo-dj.png" alt="Logo DJ Francois de St Francois"><span>DJ FRANCOIS DE ST FRANCOIS</span></a>
 </header>
-<div class="band" aria-hidden="true"></div>
+<section class="hero">
+  <a class="tel" href="tel:+590690515781"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="#1b0a2e"/></svg><span>0690 51 57 81</span></a>
+</section>
 <main class="wrap">
   <nav class="crumbs" aria-label="Fil d'Ariane"><a href="./">Accueil</a> › Catalogues</nav>
   <h1>Catalogues</h1>
@@ -90,6 +98,16 @@
       <span class="doc"><span class="doc-head">NL</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
       <span class="item-title">Néerlandais</span>
       <span class="item-desc">Chansons en néerlandais.</span>
+    </a>
+    <a class="item" href="catalogue_zouk_entier.pdf" download style="--c: var(--magenta)">
+      <span class="doc"><span class="doc-head">ZK</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <span class="item-title">Zouk</span>
+      <span class="item-desc">Chansons zouk.</span>
+    </a>
+    <a class="item" href="catalogue_top50_populaire.pdf" download style="--c: var(--gold)">
+      <span class="doc"><span class="doc-head">TOP</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <span class="item-title">Top 50 &amp; populaire</span>
+      <span class="item-desc">Les titres les plus populaires.</span>
     </a>
   </div>
 </main>
