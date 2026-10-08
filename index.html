@@ -34,6 +34,16 @@
   .item-title { margin-top: 18px; font-weight: 700; font-size: 1.05rem; }
   .item-desc { margin-top: 4px; color: var(--muted); font-size: .9rem; }
   .principal .doc-head { font-size: 2.6rem; }
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 12px; }
+    .doc { width: 92px; height: 116px; box-shadow: 4px 4px 0 var(--c); }
+    .doc-head { font-size: 1.6rem; }
+    .principal .doc-head { font-size: 1.9rem; }
+    .dl { width: 36px; height: 36px; right: -10px; bottom: -10px; }
+    .dl svg { width: 18px; height: 18px; }
+    .item-title { font-size: .95rem; }
+    .item-desc { font-size: .8rem; }
+  }
 </style>
 </head>
 <body>
