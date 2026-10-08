@@ -37,6 +37,9 @@
   .item-title { margin-top: 18px; font-weight: 700; font-size: 1.05rem; }
   .item-desc { margin-top: 4px; color: var(--muted); font-size: .9rem; }
   .principal .doc-head { font-size: 2.6rem; }
+  .doc-head.flag { background: none; padding: 0; overflow: hidden; border-radius: 6px 6px 0 0; }
+  .doc-head.flag svg { display: block; width: 100%; height: 100%; }
+  .doc-head.flag img { display: block; width: 100%; height: 100%; object-fit: cover; }
   @media (max-width: 600px) {
     .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 12px; }
     .doc { width: 92px; height: 116px; box-shadow: 4px 4px 0 var(--c); }
@@ -70,37 +73,37 @@
       <span class="item-desc">Toutes les langues réunies.</span>
     </a>
     <a class="item" href="catalogue_fr_french.pdf" download style="--c: var(--magenta)">
-      <span class="doc"><span class="doc-head">FR</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <span class="doc"><span class="doc-head flag"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="1" height="2" fill="#0055A4"/><rect x="1" width="1" height="2" fill="#FFFFFF"/><rect x="2" width="1" height="2" fill="#EF4135"/></svg></span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
       <span class="item-title">Français</span>
       <span class="item-desc">Chansons en français.</span>
     </a>
     <a class="item" href="catalogue_fr_english.pdf" download style="--c: var(--cyan)">
-      <span class="doc"><span class="doc-head">EN</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <span class="doc"><span class="doc-head flag"><svg viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><clipPath id="uk-s"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="uk-t"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#uk-s)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#FFFFFF" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uk-t)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#FFFFFF" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg></span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
       <span class="item-title">Anglais</span>
       <span class="item-desc">Chansons en anglais.</span>
     </a>
     <a class="item" href="catalogue_fr_spanish.pdf" download style="--c: var(--violet)">
-      <span class="doc"><span class="doc-head">ES</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <span class="doc"><span class="doc-head flag"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="3" height="0.5" fill="#AA151B"/><rect y="0.5" width="3" height="1" fill="#F1BF00"/><rect y="1.5" width="3" height="0.5" fill="#AA151B"/></svg></span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
       <span class="item-title">Espagnol</span>
       <span class="item-desc">Chansons en espagnol.</span>
     </a>
     <a class="item" href="catalogue_fr_german.pdf" download style="--c: var(--gold)">
-      <span class="doc"><span class="doc-head">DE</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <span class="doc"><span class="doc-head flag"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="3" height="0.667" fill="#000000"/><rect y="0.667" width="3" height="0.667" fill="#DD0000"/><rect y="1.333" width="3" height="0.667" fill="#FFCE00"/></svg></span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
       <span class="item-title">Allemand</span>
       <span class="item-desc">Chansons en allemand.</span>
     </a>
     <a class="item" href="catalogue_fr_italian.pdf" download style="--c: var(--magenta)">
-      <span class="doc"><span class="doc-head">IT</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <span class="doc"><span class="doc-head flag"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#FFFFFF"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg></span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
       <span class="item-title">Italien</span>
       <span class="item-desc">Chansons en italien.</span>
     </a>
     <a class="item" href="catalogue_fr_dutch.pdf" download style="--c: var(--cyan)">
-      <span class="doc"><span class="doc-head">NL</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <span class="doc"><span class="doc-head flag"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="3" height="0.667" fill="#AE1C28"/><rect y="0.667" width="3" height="0.667" fill="#FFFFFF"/><rect y="1.333" width="3" height="0.667" fill="#21468B"/></svg></span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
       <span class="item-title">Néerlandais</span>
       <span class="item-desc">Chansons en néerlandais.</span>
     </a>
     <a class="item" href="catalogue_zouk_entier.pdf" download style="--c: var(--magenta)">
-      <span class="doc"><span class="doc-head">ZK</span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <span class="doc"><span class="doc-head flag"><img src="drapeau-guadeloupe.png" alt="Drapeau de la Guadeloupe"></span><span class="doc-lines"></span><span class="dl" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="#1b0a2e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
       <span class="item-title">Zouk</span>
       <span class="item-desc">Chansons zouk.</span>
     </a>
