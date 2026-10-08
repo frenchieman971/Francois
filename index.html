@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Francois DJ — Catalogues KARAFUN</title>
+<style>
+  :root { --bg: #f5f5f4; --fg: #1d1a17; --card: #ffffff; --accent: #c2410c; --muted: #6b6560; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #161413; --fg: #f5f3f0; --card: #221f1d; --accent: #fb923c; --muted: #a8a29e; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.4; }
+  main { max-width: 480px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 1.75rem; margin: 0 0 8px; }
+  .intro { color: var(--muted); margin: 0 0 24px; }
+  ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  a.catalogue { display: flex; justify-content: space-between; align-items: center; min-height: 52px; padding: 12px 16px; background: var(--card); color: var(--fg); border: 1px solid rgba(127, 127, 127, .25); border-radius: 12px; text-decoration: none; font-weight: 600; }
+  a.catalogue:hover, a.catalogue:focus-visible { border-color: var(--accent); outline: none; }
+  a.principal { border-color: var(--accent); }
+  .tag { color: var(--accent); font-size: .85rem; font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Francois DJ</h1>
+  <p class="intro">Catalogues KARAFUN : touchez la langue souhaitée pour télécharger le PDF.</p>
+  <ul>
+    <li><a class="catalogue principal" href="karafuncatalog_fr_all.pdf" download>Catalogue complet (toutes langues) <span class="tag">PDF</span></a></li>
+    <li><a class="catalogue" href="karafuncatalog_fr_french.pdf" download>Français <span class="tag">PDF</span></a></li>
+    <li><a class="catalogue" href="karafuncatalog_fr_english.pdf" download>Anglais <span class="tag">PDF</span></a></li>
+    <li><a class="catalogue" href="karafuncatalog_fr_spanish.pdf" download>Espagnol <span class="tag">PDF</span></a></li>
+    <li><a class="catalogue" href="karafuncatalog_fr_german.pdf" download>Allemand <span class="tag">PDF</span></a></li>
+    <li><a class="catalogue" href="karafuncatalog_fr_italian.pdf" download>Italien <span class="tag">PDF</span></a></li>
+    <li><a class="catalogue" href="karafuncatalog_fr_dutch.pdf" download>Néerlandais <span class="tag">PDF</span></a></li>
+  </ul>
+</main>
+</body>
+</html>
