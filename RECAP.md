@@ -42,3 +42,7 @@
 - Scanner la carte A5 avec un téléphone avant impression.
 - Imprimer la carte A5.
 - Commiter ce RECAP et les scripts si tu veux qu'ils soient versionnés (dépôt public).
+
+---
+## ÉTAT AU 21/10/2026
+Page statique sur GitHub Pages (https://frenchieman971.github.io/Francois/), dépôt public `frenchieman971/Francois` : aucun PHP, non concernée par le correctif PHP du 21/10. **Ce dossier est hors de `WEBSITES` : il n'était pas dans la sauvegarde de 21 h** (ajouté au script le 21/10/2026, dossier NAS `Francois DJ`).
