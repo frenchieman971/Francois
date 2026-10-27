@@ -17,6 +17,7 @@
   - Zouk : `catalogue_zouk_entier.pdf`
   - Top 50 & populaire : `catalogue_top50_populaire.pdf`
 - Mise en page en grille : 2 colonnes sur smartphone (largeur ≤ 600 px), plusieurs colonnes sur ordinateur.
+- Les catalogues s'ouvrent dans un nouvel onglet du navigateur (lecteur PDF natif), sans téléchargement forcé : pas d'attribut `download` sur les 9 liens (27/10/2026).
 
 ## QR
 - URL encodée : https://frenchieman971.github.io/Francois/
